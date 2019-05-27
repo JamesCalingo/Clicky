@@ -1,9 +1,9 @@
 import React from "react";
 
-function ScoreDiv(){
+function ScoreDiv(props){
   return(
   
-  <h5 className="text-center">Current Score: 0 High Score: 0</h5>
+  <h5 className="text-center">Current Score: {props.score} High Score: {props.highScore}</h5>
   
   )
 }

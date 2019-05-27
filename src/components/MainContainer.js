@@ -2,7 +2,7 @@ import React from "react";
 import ScoreDiv from "./ScoreDiv"
 
 function Container (props){
-  return <div className={`container${props.fluid ? "-fluid" : ""}`}>{props.children}
+  return <div className={`container${props.fluid ? "-fluid" : ""}`}>
   <ScoreDiv /></div>;
 
 }
