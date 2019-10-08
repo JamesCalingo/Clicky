@@ -67,13 +67,14 @@ if(isCorrect){
     )
   }
 
-  if(this.state.score === this.state.friendlist.length){
+  if(this.state.score === this.state.friendlist.length -1){
     swal(<div>
       <h1>You win!</h1>
     </div>);
     this.setState({
       clicked: false,
       score: 0,
+      highScore: 12
     })
   }
 
