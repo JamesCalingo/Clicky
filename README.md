@@ -1,3 +1,18 @@
+# Clicky
+
+A game where you click on pictures - but only once!
+
+# How it Works
+The user is given twelve pictures. When the user clicks on a picture, they get a point - and then the pictures all shuffle.<br/>
+The goal of the game is to click on all of the pictures without clicking on any of them twice. If the user successfully does this, then they win!
+
+# Technology Used
+
+* React
+* SweetAlert
+
+----------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
