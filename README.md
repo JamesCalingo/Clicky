@@ -4,7 +4,17 @@ A game where you click on pictures - but only once!
 
 # How it Works
 The user is given twelve pictures. When the user clicks on a picture, they get a point - and then the pictures all shuffle.<br/>
-The goal of the game is to click on all of the pictures without clicking on any of them twice. If the user successfully does this, then they win!
+The goal of the game is to click on all of the pictures without clicking on any of them twice. If the user successfully does this, then they win! However, if the user clicks on any of the images more than once, then they lose.
+
+# How to Download
+
+If you clone this repository to your computer using SSH and Terminal with
+
+### git clone git@github.com:JamesCalingo/clicky.git
+
+You can then use this app offline by opening it in your Terminal or Gitbash and using
+
+### npm start
 
 # Technology Used
 
